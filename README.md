@@ -4,5 +4,9 @@
 
 ## как ставить
 используй любой менеджер плагинов (например vim-plug)<br>
-вставь себе в .vimrc где плагины:
-`Plug 'zenusus/galochka.vim'`
+вставь себе в .vimrc где плагины:<br>
+```
+call plug#begin()
+Plug 'zenusus/galochka.vim'
+call plug#end()
+```
