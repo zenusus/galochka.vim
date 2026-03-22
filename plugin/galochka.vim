@@ -15,7 +15,7 @@ function! s:InsertGalochka(count_str) abort
     call cursor(line('.'), l:cursor_col + len(l:galochki) + 1)
 endfunction
 
-command! -nargs=? galochka call s:InsertGalochka(<q-args>)
+command! -nargs=? Galochka call s:InsertGalochka(<q-args>)
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
